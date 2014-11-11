@@ -12,12 +12,15 @@ Getting your development environment set up should be as simple as installing [V
 **Note:** Using VMware with Vagrant will require the purchase of the [vagrant-vmware-plugin](https://www.vagrantup.com/vmware).
 
 Then, just go into the TeamVote directory and type:
+
     vagrant up
 
 Once the vagrant VM boots, you can log into it:
+
     vagrant ssh
 
 Inside the VM, you can go into the app directory, launch the meteor app, and begin making edits in your host OS with your preferred text editor/IDE:
+
     cd /vagrant/app
     meteor
 
