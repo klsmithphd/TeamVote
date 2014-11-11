@@ -18,6 +18,6 @@ bind-mount:
     - device: /home/vagrant/.meteor-local/app
     - fstype: auto
     - opts: bind
-    - requires:
+    - require:
       - file.directory: meteor-home-local-dir
       - file.directory: meteor-local-dir
