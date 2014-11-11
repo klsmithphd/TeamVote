@@ -1,0 +1,11 @@
+<template name="teamsList">
+    <form class="form-horizontal">
+        <fieldset>
+            <div class="form-group">
+                {{#each teams}}
+                    {{> teamSelectionItem}}
+                {{/each}}
+            </div>
+        </fieldset>
+    </form>
+</template>
