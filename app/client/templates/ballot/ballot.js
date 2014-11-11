@@ -3,9 +3,9 @@ Template.ballot.events({
         e.preventDefault();
 
         var vote = {
-            award1: $(e.target).find('[name=options1]:checked').val(),
-            award2: $(e.target).find('[name=options2]:checked').val(),
-            award3: $(e.target).find('[name=options3]:checked').val()
+            creative: $(e.target).find('[name=options1]:checked').val(),
+            execution: $(e.target).find('[name=options2]:checked').val(),
+            probSolve: $(e.target).find('[name=options3]:checked').val()
         };
 
         vote._id = Votes.insert(vote);
