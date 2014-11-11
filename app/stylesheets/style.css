@@ -7,3 +7,21 @@ body {
     margin-bottom: 10px;
 }
 
+.panel-heading {
+    color: #fff;
+    user-select: none;
+}
+
+.panel-warning .panel-heading {
+    background-color: #ff5722;
+
+}
+
+.panel-info .panel-heading {
+    background-color: #03a9f4;
+}
+
+.circle {
+    border-radius: 100%;
+    margin-right: 30px;
+}
