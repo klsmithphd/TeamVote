@@ -19,5 +19,5 @@ bind-mount:
     - fstype: auto
     - opts: bind
     - require:
-      - file.directory: meteor-home-local-dir
-      - file.directory: meteor-local-dir
+      - file: meteor-home-local-dir
+      - file: meteor-local-dir
