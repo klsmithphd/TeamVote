@@ -22,3 +22,4 @@ Inside the VM, you can go into the app directory, launch the meteor app, and beg
     meteor
 
 On your host system, you can see the running app at [http://localhost:3000]
+
