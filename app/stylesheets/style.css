@@ -12,16 +12,24 @@ body {
     user-select: none;
 }
 
-.panel-warning .panel-heading {
-    background-color: #ff5722;
-
+.panel-success .panel-heading {
+    background-color: #5CB857;
 }
 
 .panel-info .panel-heading {
     background-color: #03a9f4;
 }
 
+.panel-warning .panel-heading {
+    background-color: #ff5722;
+}
+
+
 .circle {
     border-radius: 100%;
     margin-right: 30px;
+}
+
+.panel-heading h2 {
+    font-size: 200%;
 }
