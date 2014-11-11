@@ -1,37 +1,37 @@
 var teamsData = [
     {
         teamId : 1,
-        teamName : 'Exhibit' 
+        teamName : 'Exhibit', 
         teamMembers : 'Nathan, James, Jon'
     },
     {
         teamId : 2,
-        teamName : 'Catnip'
+        teamName : 'Catnip',
         teamMembers: 'Pete, Chris G, Craig, Jason, Derek, Yoshi, David L, Kris'
     },
     {
         teamId : 3,
-        teamName : 'Project Timelines'
+        teamName : 'Project Timelines',
         teamMembers: 'Ken I, Kevin Chu'
     },
     {
         teamId: 4,
-        teamName: 'MapMash'
+        teamName: 'MapMash',
         teamMembers: 'Andrew M'
     },
     {
         teamId: 5,
-        teamName: 'UI Test Generator'
+        teamName: 'UI Test Generator',
         teamMembers: 'David T'
     },
     {
         teamId: 6,
-        teamName: 'Quick Cliplet'
+        teamName: 'Quick Cliplet',
         teamMembers: 'Travis'
     },
     {
         teamId: 7,
-        teamName: 'Mission Control'
+        teamName: 'Mission Control',
         teamMembers: 'Chris T'
     }
 ];
