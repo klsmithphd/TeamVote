@@ -1,0 +1,30 @@
+<template name="awardItem">
+    <div class="panel panel-{{style}}">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse{{awardNum}}" aria-expanded="true" aria-controls="collapse{{awardNum}}">    
+            <div class="panel-heading" role="tab" id="heading{{awardNum}}">
+                <h2 class="panel-title">
+                    <img src="{{icon}}" class="circle"/>{{award}}            
+                </h2>
+            </div>
+        </a>
+        <div id="collapse{{awardNum}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{awardNum}}">
+            <div class="panel-body">
+                <form class="form-horizontal">
+                    <fieldset>
+                        <div class="form-group">
+                            <div class="radio radio-primary">
+                                <label><input type="radio" name="options" id="lunch">Lunch</label>
+                            </div>
+                            <div class="radio radio-primary">
+                                <label><input type="radio" name="options" id="team1">Team 1</label>
+                            </div>
+                            <div class="radio radio-primary">
+                                <label><input type="radio" name="options" id="team1">Team 2</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>    
+</template>
